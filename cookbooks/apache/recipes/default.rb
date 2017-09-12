@@ -10,7 +10,7 @@ package 'apache2' do
 end
 
 service 'apache2' do
-	service name 'httpd'
+	service_name 'httpd'
 	action [:start, :enable] 
 end
 
